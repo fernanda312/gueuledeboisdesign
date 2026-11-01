@@ -1,0 +1,33 @@
+.bt {
+  background: #223e7d;
+  color: white;
+  padding: 5px 15px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  display: inline-block;
+  border: 2px solid #223e7d;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.bt:hover {
+    background-color: rgba(68, 96, 159, 1);
+    color: white;
+}.listIllu {
+  margin-bottom: 25px;
+  display: inline-block;
+  width: 100%;
+}   
+.listIllu img {
+  float: left;
+  width: 15%; 
+  max-width: 100px;
+  margin-right: 4%;
+}  
+.listIllu .infos {
+  float: left;
+  width: 80%; 
+}  
